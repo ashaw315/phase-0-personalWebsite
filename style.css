@@ -1,7 +1,28 @@
 body {
-    background: rgb(184, 231, 245);
+    background-color: #fffff;
 }
 
-h1 {
-    font-family: Helvetica;
+.site-menu {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: cornsilk;
+    font-size: 75px;
+    position: absolute;
+    width: 500px;
+    top: 150px;
+    background: rgba(58, 55, 70, 0.24);
+    padding: 20px 20px;
+    letter-spacing: 3px;
+    text-align: left;
+    margin: auto;
 }
+
+.site-menu ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: cornsilk;
+    display: inline-block;
+}
+a:hover {transform: scale(1,1.75);}

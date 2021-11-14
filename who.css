@@ -1,0 +1,23 @@
+.box {
+    position: relative;
+    margin: 3em;
+    width: 400px;
+    height: 500px;
+    background: #0bf;
+  }
+  
+  .box h1 {
+    position: absolute;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-size: 5em; /* play only with this value. don't touch the rest! */
+    top: -1.7em;
+    letter-spacing: 10px;
+  }
+  .box h1 span{
+    position: absolute;
+    top: 0.9em;
+    right: calc(100% + .95em);
+    transform-origin: right top;
+    transform: rotate(-90deg);
+  }
