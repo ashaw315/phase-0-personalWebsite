@@ -53,4 +53,23 @@
     border-color: #62748a;
   }
   
+  .topnav {
+      overflow: hidden;
+  }
+
+  .topnav a {
+      float: left;
+      color: rgb(41, 42, 43);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 12px;
+      font-family: "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  }
+
+  .topnav a:hover {
+      background-color: deeppink;
+      color: ghostwhite;
+  }
+
   
