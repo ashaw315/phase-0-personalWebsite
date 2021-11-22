@@ -1,23 +1,56 @@
-.box {
-    position: relative;
-    margin: 3em;
-    width: 400px;
-    height: 500px;
-    background: #0bf;
+.container {
+    display: flex;
+    padding: 2em;
+    display: flex;
   }
   
-  .box h1 {
-    position: absolute;
+  h1 {
+    color: #F0F8FF;
+    writing-mode: vertical-rl;
+    text-shadow: 2px 4px #4d4d4d;
+    font-size: 60px;
+  }
+    
+  p {
+    font-family: "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 15px;
+    margin-top: 0px;
+    text-align: justify;
+    letter-spacing: 3px;
+    color: #F0F8FF;
+    background-color: #384452;
+    padding: 3em;
+    border:5px solid;
+    border-color: #f0fffa;
+  }
+  
+  .text-orientation {
+    text-orientation: mixed;
+    letter-spacing: 50px;
     text-transform: uppercase;
-    white-space: nowrap;
-    font-size: 5em; /* play only with this value. don't touch the rest! */
-    top: -1.7em;
-    letter-spacing: 10px;
   }
-  .box h1 span{
-    position: absolute;
-    top: 0.9em;
-    right: calc(100% + .95em);
-    transform-origin: right top;
-    transform: rotate(-90deg);
+  
+  .row {
+    display: flex;
+    column-gap: 40px;
   }
+  
+  .column {
+    flex: 50%;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  #left {
+    border-radius: 10px;
+    border-color: #242424;
+    background-color: #62748a;
+  }
+  
+  #right {
+    border-radius: 10px;
+    margin-top: 400px;
+    border-color: #62748a;
+  }
+  
+  
