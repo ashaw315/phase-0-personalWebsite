@@ -1,7 +1,7 @@
 .image {
     position: relative;
     width: 750px;
-    margin-left: 225px;
+    margin-left: 215px;
     margin-right: auto;
     margin-top: 50px;
 }
@@ -59,9 +59,9 @@
 .image__a {
     position: relative;
     width: 750px;
-    margin-left: 975px;
+    margin-left: 965px;
     margin-right: auto;
-    margin-top: -886px;
+    margin-top: -887px;
 }
 
 .image__img__a {
@@ -112,4 +112,23 @@
 .image__title__a {
     font-size: 2em;
     font-weight: bold;
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: rgb(41, 42, 43);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+
+.topnav a:hover {
+    background-color: rgb(117, 181, 206);
+    color: ghostwhite;
 }
